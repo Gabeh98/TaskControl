@@ -1,5 +1,5 @@
 # Sistema de registro de pessoas
-Esse sistema foi desenvolvido em react utilizando as seguintes tecnologias:
+Esse sistema foi desenvolvido em react utilizando as seguintes tecnologias:<br/>
 `React`
   Uma biblioteca JavaScript para criar interfaces de usuário.
  [React](https://pt-br.reactjs.org/)
