@@ -1,5 +1,5 @@
 # Sistema de registro de pessoas
-<p>Esse aplicação focado no registro de pessoas.</p>
+Esse aplicação focado no registro de pessoas.
 Com os dados das pessoas é possivel Incluir,Listar,Alterar e Excluir informações.
 
 ## Tecnologias Utilizadas
