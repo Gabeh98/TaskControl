@@ -1,4 +1,5 @@
 # Sistema de registro de pessoas
+## Tecnologias Utilizadas 
 Esse sistema foi desenvolvido em react utilizando as seguintes tecnologias:<br/>
 `React`
   Uma biblioteca JavaScript para criar interfaces de usuário.
