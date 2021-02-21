@@ -19,6 +19,6 @@ Esse sistema foi desenvolvido em react utilizando as seguintes tecnologias:<br/>
 - [ ]Criar um tarefa de um usuário
 - [ ]Alterar um tarefa de um usuário
 - [ ]Exlcuir um tarefa de um usuário
-- - [x] Finish my changes
+- [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
