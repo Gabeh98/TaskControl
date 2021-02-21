@@ -1,6 +1,8 @@
 # Sistema de registro de pessoas
-## Tecnologias Utilizadas 
-<p>Esse sistema foi desenvolvido em react utilizando as seguintes tecnologias: </p>
+<p>Esse aplicação focado no registro de pessoas.</p>
+Com os dados das pessoas é possivel Incluir,Listar,Alterar e Excluir informações.
+
+## Tecnologias Utilizadas
 
 `React`
   Uma biblioteca JavaScript para criar interfaces de usuário.</br>
