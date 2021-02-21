@@ -9,7 +9,7 @@ Com os dados das pessoas é possivel Incluir, Listar, Alterar e Excluir informa�
  [React](https://pt-br.reactjs.org/)
 
 `Booststrap`
-  O kit de ferramentas de front-end de código aberto mais popular do mundo, apresentando variáveis e mixins Sass, sistema de grade responsivo, extensos componentes pré-construídos e poderosos plug-ins de JavaScript.</br>
+  O kit de ferramentas de front-end de código aberto mais popular do mundo, apresentando variáveis e Sass, sistema de grade responsivo, extensos componentes pré-construídos e poderosos plug-ins de JavaScript.</br>
   [Booststrap](https://getbootstrap.com/)
   </br>
   
