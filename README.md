@@ -9,7 +9,7 @@ Esse sistema foi desenvolvido em react utilizando as seguintes tecnologias:<br/>
   <br/>
   [Booststrap](https://getbootstrap.com/)
   
-##Objetivo da aplicação até o momento:
+## Objetivo da aplicação até o momento:
 - [x] Listar todos os usuários
 - [x] Cadastrar novos usuários
 - [x] Listar os dados de um usuário
