@@ -36,4 +36,3 @@ Instruções:
 * Nome do Projeto: Controle de tarefas
 * Objetivo do Projeto: Criar uma aplicação WEB capaz de gerenciar os usuários e as tarefas destes usuários.
 * Tecnologia: React
-* Entregáveis: Crie um repositório pessoal para esse projeto, siga as instruções abaixo e então envie um e-mail para selecao@unosolucoes.com.br informando o link do repositório.
