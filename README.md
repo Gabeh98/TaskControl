@@ -4,7 +4,7 @@ Com estes dados é possivel Incluir, Listar, Alterar e Excluir informações.
 
 ## Tecnologias Utilizadas
 `NodeJS`
-O Node. js pode ser definido como um ambiente de execução Javascript server-side. Isso significa que com o Node. js é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina, não dependendo de um browser para a execução, como estamos acostumados.
+O Node. js pode ser definido como um ambiente de execução Javascript server-side. Isso significa que com js é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina, não dependendo de um browser para a execução, como estamos acostumados.
 [NodeJS](https://nodejs.org/en/)</br>
 `ReactJS`
   Uma biblioteca JavaScript para criar interfaces de usuário.</br>
