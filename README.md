@@ -5,18 +5,18 @@ Com os dados das pessoas é possivel Incluir, Listar, Alterar e Excluir informa�
 ## Tecnologias Utilizadas
 `NodeJS`
 O Node. js pode ser definido como um ambiente de execução Javascript server-side. Isso significa que com o Node. js é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina, não dependendo de um browser para a execução, como estamos acostumados.
-[NodeJS](https://nodejs.org/en/)
+[NodeJS](https://nodejs.org/en/)</br>
 `ReactJS`
   Uma biblioteca JavaScript para criar interfaces de usuário.</br>
- [React](https://pt-br.reactjs.org/)
+ [React](https://pt-br.reactjs.org/)</br>
 
 `Booststrap`
   O kit de ferramentas de front-end de código aberto mais popular do mundo, apresentando variáveis e Sass, sistema de grade responsivo, extensos componentes pré-construídos e poderosos plug-ins de JavaScript.</br>
-  [Booststrap](https://getbootstrap.com/)
+  [Booststrap](https://getbootstrap.com/)</br>
   </br>
   `Axios`
   Biblioteca http para Nodejs.
-  [Axios](https://www.npmjs.com/package/axios)
+  [Axios](https://www.npmjs.com/package/axios)</br>
   
 ## Aplicação capaz de até o momento:
 
