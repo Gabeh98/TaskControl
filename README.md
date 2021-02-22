@@ -17,6 +17,8 @@ O Node. js pode ser definido como um ambiente de execução Javascript server-si
   `Axios`
   Biblioteca http para Nodejs.
   [Axios](https://www.npmjs.com/package/axios)</br>
+  `JsonServer`
+  Back-end simples para testes e prototipagem de interface.
   
 ## Aplicação capaz de até o momento:
 
