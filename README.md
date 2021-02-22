@@ -1,6 +1,6 @@
 # Sistema de registro de tarefas
-Esta aplicação é focada no registro de pessoas com suas respectivas tarefas.
-Com os dados das pessoas é possivel Incluir, Listar, Alterar e Excluir informações.
+Esta aplicação resume-se no registro de pessoas e suas respectivas tarefas.
+Com estes dados é possivel Incluir, Listar, Alterar e Excluir informações.
 
 ## Tecnologias Utilizadas
 `NodeJS`
