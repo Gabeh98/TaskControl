@@ -22,15 +22,18 @@ O Node. js pode ser definido como um ambiente de execução Javascript server-si
   
 ## Aplicação capaz de até o momento:
 
+- [x] Tela de registro de usuario
 - [x] Listar todos os usuários
 - [x] Cadastrar novos usuários
 - [x] Listar os dados de um usuário
 - [x] Alterar os dados um usuário
 - [x] Excluir um usuário
+- [x] Tela de registro de tarefas
 - [ ] Listar todas as tarefas de um usuário
 - [ ] Criar um tarefa de um usuário
 - [ ] Alterar um tarefa de um usuário
 - [ ] Exlcuir um tarefa de um usuário
+
 ## Desafio Uno 
 Instruções:
 * Nome do Projeto: Controle de tarefas
