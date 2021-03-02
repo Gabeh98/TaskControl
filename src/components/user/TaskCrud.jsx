@@ -1,22 +1,19 @@
-//Componente principal para utilizar o CRUD da aplicacao
-//Que faz toda as operacoes de Incluir,Listar,Alterar e Excluir
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import axios from 'axios'
 import Main from '../template/Main'
 
 const headerProps = {
-    icon: 'users',
-    title: 'Usuarios',
-    subtitle: 'Cadastro de usuarios:Incluir,Listar,Alterar e Excluir'
+    icon: 'tasks',
+    title: 'Tarefas',
+    subtitle: 'Cadastro de Tarefas:Incluir,Listar,Alterar e Excluir'
 }
-const baseUrl = 'http://localhost:3001/users'
+const baseUrl = 'http://localhost:3001/tasks'
+
 const initialState = {
-    user: { name: '', cargo: '', cidade:'' },
+    user: { name: '', tarefa: ''},
     list: []
 }
-
-export default class userCrud extends Component {
-
+export default class taskCrud extends Component{
     state = { ...initialState }
 
     componentWillMount() {
@@ -52,7 +49,6 @@ export default class userCrud extends Component {
         user[event.target.name] = event.target.value
         this.setState({ user })
     }
-    //Renderiza o formulario
     renderForm() {
         return (
             <div className="form">
@@ -66,14 +62,8 @@ export default class userCrud extends Component {
                     </div>
                     <div className="col-12 col-md-6">
                         <div className="form-group">
-                            <label>Cargo</label>
-                            <input type="text" className="form-control" name="cargo" value={this.state.user.cargo} onChange={e => this.updateField(e)} placeholder="Digite o Cargo..."></input>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-6">
-                        <div className="form-group">
-                            <label>Cidade</label>
-                            <input type="text" className="form-control" name="cidade" value={this.state.user.cidade} onChange={e => this.updateField(e)} placeholder="Digite a rua..."></input>
+                            <label>Tarefa</label>
+                            <input type="text" className="form-control" name="tarefa" value={this.state.user.tarefa} onChange={e => this.updateField(e)} placeholder="Digite o tarefa..."></input>
                         </div>
                     </div>
                 </div>
@@ -92,7 +82,6 @@ export default class userCrud extends Component {
             </div>
         )
     }
-    
     load(user) {
         this.setState({ user })
     }
@@ -103,7 +92,6 @@ export default class userCrud extends Component {
             this.setState({ list })
         })
     }
-    //Funcao que renderiza a tabela
     renderTable() {
         return (
             <table className="table mt-4">
@@ -111,9 +99,7 @@ export default class userCrud extends Component {
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
-                        <th>Cargo</th>
-                        <th>Cidade</th>
-                        <th>Ações</th>
+                        <th>Tarefa</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -122,15 +108,13 @@ export default class userCrud extends Component {
             </table>
         )
     }
-    //Renderiza as linhas e a funcao que apagar e atualizar usuario
     renderRows() {
         return this.state.list.map(user => {
             return (
                 <tr key={user.id}>
                     <td>{user.id}</td>
                     <td>{user.name}</td>
-                    <td>{user.cargo}</td>
-                    <td>{user.cidade}</td>
+                    <td>{user.tarefa}</td>
                     <td>
                         <button className="btn btn-warning" onClick={() => this.load(user)}>
                             <i className="fa fa-pencil"></i>
@@ -152,4 +136,5 @@ export default class userCrud extends Component {
             </Main>
         )
     }
+
 }
