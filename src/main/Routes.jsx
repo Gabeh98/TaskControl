@@ -3,7 +3,7 @@ import {Switch, Route, Redirect} from 'react-router'
 import Home from '../components/home/Home'
 import UserCrud from '../components/user/UserCrud'
 import TaskCrud from '../components/user/TaskCrud'
-{/*Componente principal para a distribuicao de rotas*/}
+
 export default props =>
     <Switch>
         <Route exact path='/' component={Home}/>
