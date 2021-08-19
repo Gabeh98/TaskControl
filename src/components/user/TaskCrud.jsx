@@ -7,6 +7,7 @@ const headerProps = {
     title: 'Tarefas',
     subtitle: 'Cadastro de Tarefas:Incluir,Listar,Alterar e Excluir'
 }
+
 const baseUrl = 'http://localhost:3001/tasks'
 
 const initialState = {
@@ -93,7 +94,6 @@ export default class taskCrud extends Component{
     }
     
     renderTable() {
-        
         return (
             <table className="table mt-4">
                 <thead>
